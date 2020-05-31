@@ -1,0 +1,24 @@
+body{
+    background-color:#ccc;
+}
+
+#Header a:hover{
+    color:pink;
+    
+}
+#Header span{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkcyan;
+    color: #fff;
+    text-align: center;
+}
+hr{
+    border-width: 3px;
+}
+
+h1{
+    color:darkcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
