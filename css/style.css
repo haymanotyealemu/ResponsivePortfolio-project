@@ -1,15 +1,19 @@
+
+
+
 body{
     background-color:#ccc;
-    font-size: 16px;
+    line-height: 24px;
+    
 }
 
 #Header a:hover{
     color:pink;
     
 }
-#Header span{
+.navbar-brand{
     font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Serif', serif; 
     background: darkcyan;
     color: #fff;
     text-align: center;
@@ -21,7 +25,6 @@ hr{
 
 h2{
     color:darkcyan;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-bottom: 10px;
+    font-family: 'PT Serif', serif;
     
 }

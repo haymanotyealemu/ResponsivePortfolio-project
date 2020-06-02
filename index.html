@@ -3,15 +3,16 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--Title-->
-<title>My Portfolio Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Bootstrap CDN -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<!--link the style sheet-->
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Title-->
+    <title>My Portfolio Site</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--link the style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
@@ -19,18 +20,18 @@
 <!-- Start Nav -->
     <div id="Header">
         <nav class="navbar navbar-expand-sm navbar-light bg-light ">
-        <span class="navbar-brand mb-0 p-2 h1 font-weight-bold">Haymanot Wolde</span>
+        <a class="navbar-brand text-white mb-0 p-3 h1 font-weight-bold" href="index.html">Haymanot Wolde</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto p-2">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -42,25 +43,35 @@
     </div>
     <!-- End Nav -->
 
+    <!-- Creates the Overall Grid & applying bootstrap utilities! -->
 
-    <div class="container bg-light mt-5 pt-3">
+    <div class="container bg-light mt-5 pt-3 ">
+        <!-- Row 1 -->
         <div class="row">
             <div class="col-sm-12">
                 <div class="page-header">
-                    <h2 class="font-weight-bold  font-weight-bolder">About Me</h2>
+                    <h2 class="font-weight-bolder pb-2">About Me</h2>
                     <hr>
                 </div>
+
+        <!-- Row 2 -->       
         <div class="row">
-            <div class="col-sm-3 col-md-6 col-lg-6">
-                <img src="https://haymanotyealemu.github.io/images/me.jpg" alt="My image" class="img-thumbnail rounded img-fluid">
+            <div class="col-sm-6 col-md-6 ">
+                <!-- Add a class to the image and make it Responsive Image --> 
+                <img src="https://haymanotyealemu.github.io/images/me.jpg" alt="My image" class="img-thumbnail rounded img-fluid mx-auto d-block pb-2">
             </div>
-            <div class="col-sm-9 col-md-6 col-lg-6">
-                <p>
-                    My name is Haymanot Wolde, i am studing full stack web development at Case Western Reserve University boot camp currently, i have BSC in construction technology and management from Addis Abbaba University and i have been working on diffrent construction projects since 2014 until 2018. am married and i have one beautifull 2years old doughter</p>
+            <div class="col-sm-6 col-md-6 ">
+                <p class="text-secondary ">
+                    My name is Haymanot Wolde, i was born in Ethiopia, East region a town called Nazreth on March twenty first 1991.  I  have BSC in construction technology and management from Addis Abbaba University and i have been working on diffrent construction projects in the position of site supervisor, junior contract administrator since 2014 until 2018.i have moved to USA with my family around two years ago and started a new life,swithcing profession from construction sector to technology world.so currently am a student at Case Western Reserve University boot camp in cleveland ohio in the program of full stack web development.I'm married and i have one beautiful 2years old doughter.
                 </p>
             </div>
         </div>
     </div>
+
+
+
+
+
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

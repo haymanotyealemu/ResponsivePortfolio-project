@@ -3,14 +3,14 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My Portfolio Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio Site</title>
 
-<!-- Bootstrap CDN -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<!--link the style sheet-->
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--link the style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
@@ -18,7 +18,7 @@
 <!-- Start Nav -->
     <div id="Header">
         <nav class="navbar navbar-expand-sm navbar-light bg-light ">
-        <span class="navbar-brand mb-0 p-2 h1 font-weight-bold">Haymanot Wolde</span>
+        <a class="navbar-brand text-white mb-0 p-3 h1 font-weight-bold" href="index.html">Haymanot Wolde</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,20 +26,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto p-2">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
         </nav>
     </div>
     <!-- End Nav -->
+
+    <!-- Creates the Overall Grid & applying bootstrap utilities! -->
+
     <div class="container bg-light my-5 pt-3">
+        <!-- Row 1 -->
         <div class="row">
             <div class="col-sm-12">
                 <div class="page-header font-weight-bold  font-weight-bolder">
@@ -49,6 +53,7 @@
                 </div>
             </div>
         </div>
+        <!-- Row 2 -->
         <div class="row">
             <div class="col-sm-12">
                 <form action="/action_page.php">
@@ -59,6 +64,7 @@
                 </form>
             </div>
         </div>
+        <!-- Row 3 -->
         <div class="row">
             <div class="col-sm-12">
                 <form action="/action_page.php">
@@ -69,6 +75,19 @@
                 </form>
             </div>
         </div>
+        <!-- Row 4 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="Linkdln">Linkdln</label>
+        
+                        <input type="linkdln" class="form-control" placeholder="Enter linkdln" id="linkdln">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Row 5 -->
         <div class="row">
             <div class="col-sm-12">
                 <form action="/action_page.php">
@@ -80,17 +99,7 @@
                 </form>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <form action="/action_page.php">
-                    <div class="form-group">
-                        <label for="inputMobile">Mobile</label>
-        
-                        <input type="tel" class="form-control" placeholder="Enter your mobile number">
-                    </div>
-                </form>
-            </div>
-        </div>
+        <!-- Row 6 -->
         <div class="row">
             <div class="col-sm-12">
                 <form action="/action_page.php">
@@ -103,13 +112,12 @@
                 </form>
             </div>
         </div>
+        <!-- Row 7 -->
         <div class="row">
             <div class="col-sm-3">
                 <button type="button" class="btn btn-success">Submit</button>
             </div>
-        </div>
-                    
-        
+        </div>             
     </div>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -14,7 +14,7 @@
     <!-- Start Nav -->
     <div id="Header">
         <nav class="navbar navbar-expand-sm navbar-light bg-light ">
-        <span class="navbar-brand mb-0 p-2 h1 font-weight-bold">Haymanot Wolde</span>
+        <a class="navbar-brand text-white mb-0 p-3 h1 font-weight-bold" href="index.html">Haymanot Wolde</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,10 +22,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto p-2">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -36,38 +36,65 @@
         </nav>
     </div>
     <!-- End Nav -->
-    <div class="container bg-light my-5 pt-3 pl-4">
+    <!--Creates the Overall Grid-->
+    <div class="container bg-light my-5 pt-3 ">
+        <!-- Row 1 -->
         <div class="row">
             <div class="col-sm-12">
-                <div class="page-header">
+                <div class="page-header font-weight-bold  font-weight-bolder">
                     <h2>Portfolio</h2>
                     <hr>
             </div>
         </div>
+        <!-- Row 2 -->
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <img src="https://haymanotyealemu.github.io/images/image4.jpg" alt="Responsive Web Design image" class="rounded img-fluid mb-2">
-                <p class=" bg-success p-2"  >Responsive Web Design</p>
+            <!--Create Card taking up 6 Columns-->
+            <div class="col-sm-6 col-md-6">
+                <div class="card mb-3 mx-auto " style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="https://haymanotyealemu.github.io/images/image4.jpg" alt=" Responsive Web Design image">
+                    <div class="card-body">
+                        <h5 class="card-title bg-success text-white">Responsive Web Design </h5>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <img src="https://haymanotyealemu.github.io/images/image5.jpg" alt="Responsive Web Design image" class="rounded img-fluid mb-2">
-                <p class=" bg-success p-2"  >Responsive Web Design</p>
+            <div class="col-sm-6 col-md-6">
+                <div class="card mb-3 mx-auto" style="width: 18rem;">
+                    <img class="card-img-top img-fluid " src="https://haymanotyealemu.github.io/images/image5.jpg" alt=" Responsive Web Design image">
+                    <div class="card-body">
+                        <h5 class="card-title bg-success text-white">Responsive Web Design </h5>
+                    </div>
+                </div>
             </div>
-        </div>
+
+        <!--Row 3-->
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <img src="https://haymanotyealemu.github.io/images/image6.jpg" alt="Future technology of smart watch" class="rounded img-fluid mb-2">
-                <p class=" bg-success p-2"> Future Technology</p>
+            <!--Create Card taking up 6 Columns-->
+            <div class="col-sm-6 col-md-6">
+                <div class="card mx-auto mb-3 " style="width: 18rem;">
+                    <img class="card-img-top img-fluid " src="https://haymanotyealemu.github.io/images/image6.jpg" alt=" Future technology of smart watch">
+                    <div class="card-body">
+                        <h5 class="card-title bg-success text-white"> Future Technology</h5>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <img src="https://haymanotyealemu.github.io/images/image1.jpg" alt="sammple responsive website for covid-19" class="rounded img-fluid mb-2">
-                <p class="bg-success p-2">Responsive Web Design</p>
+            <div class="col-sm-6 col-md-6">
+                <div class="card  mb-3 mx-auto" style="width: 18rem;">
+                    <img class="card-img-top img-fluid float-right" src="https://haymanotyealemu.github.io/images/Smart-Devices.jpg" alt="Image of smart devices">
+                    <div class="card-body">
+                        <h5 class="card-title bg-success text-white">Smart-Devices </h5>
+                    </div>
+                </div>
             </div>
-        </div>
+        <!--Row 4-->
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <img src="https://haymanotyealemu.github.io/images/image3.jpg" alt="Funny carton image of meeting in the office" class="rounded img-fluid mb-2">
-                <p class="bg-success p-2">We need readjesting meeting 6 month later</p>
+            <!--Create Card taking up 6 Columns-->
+            <div class="col-sm-6 col-md-6">
+                <div class="card mb-3 mx-auto "  style="width: 18rem;">
+                    <img class="card-img-top img-fluid  " src="https://haymanotyealemu.github.io/images/Smart%20Home%20Devices.jpg" alt=" Image of Smart Home devices ">
+                    <div class="card-body">
+                        <h5 class="card-title bg-success text-white">Smart Home Device</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -75,7 +102,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
- 
+
     <!-- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
