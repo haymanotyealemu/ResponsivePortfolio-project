@@ -36,11 +36,11 @@ html {
 body {
     margin-bottom: 30px; /* Margin bottom by footer height */
 }
-.footer {
+.footer{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 30px; /* Set the fixed height of the footer here */
-    line-height: 18pxpx; /* Vertically center the text there */
+    line-height: 18px; /* Vertically center the text there */
     background-color:gray;
 }
