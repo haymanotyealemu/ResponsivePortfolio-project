@@ -6,9 +6,12 @@
     <!--Title-->
     <title>My Portfolio Site</title>
     <!-- Bootstrap CDN -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<!--link the style sheet-->
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--link the style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Sticky Footer Template for Bootstrap-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
+
 </head>
 <body>
     <!-- Start Nav -->
@@ -36,68 +39,75 @@
         </nav>
     </div>
     <!-- End Nav -->
-    <!--Creates the Overall Grid-->
-    <div class="container bg-light my-5 pt-3 ">
-        <!-- Row 1 -->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="page-header font-weight-bold  font-weight-bolder">
-                    <h2>Portfolio</h2>
-                    <hr>
-            </div>
-        </div>
-        <!-- Row 2 -->
-        <div class="row">
-            <!--Create Card taking up 6 Columns-->
-            <div class="col-sm-6 col-md-6">
-                <div class="card mb-3 mx-auto " style="width: 18rem;">
-                    <img class="card-img-top img-fluid" src="https://haymanotyealemu.github.io/images/image4.jpg" alt=" Responsive Web Design image">
-                    <div class="card-body">
-                        <h5 class="card-title bg-success text-white">Responsive Web Design </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6">
-                <div class="card mb-3 mx-auto" style="width: 18rem;">
-                    <img class="card-img-top img-fluid " src="https://haymanotyealemu.github.io/images/image5.jpg" alt=" Responsive Web Design image">
-                    <div class="card-body">
-                        <h5 class="card-title bg-success text-white">Responsive Web Design </h5>
-                    </div>
-                </div>
-            </div>
 
-        <!--Row 3-->
-        <div class="row">
-            <!--Create Card taking up 6 Columns-->
-            <div class="col-sm-6 col-md-6">
-                <div class="card mx-auto mb-3 " style="width: 18rem;">
-                    <img class="card-img-top img-fluid " src="https://haymanotyealemu.github.io/images/image6.jpg" alt=" Future technology of smart watch">
-                    <div class="card-body">
-                        <h5 class="card-title bg-success text-white"> Future Technology</h5>
-                    </div>
+    <!--Creates the Overall Grid-->
+    <section class="gallery-block cards-gallery">
+        <div class="container bg-light my-5 pt-3 ">
+            <!-- Row 1 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-header font-weight-bold  font-weight-bolder">
+                        <h2>Portfolio</h2>
+                        <hr>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6">
-                <div class="card  mb-3 mx-auto" style="width: 18rem;">
-                    <img class="card-img-top img-fluid float-right" src="https://haymanotyealemu.github.io/images/Smart-Devices.jpg" alt="Image of smart devices">
-                    <div class="card-body">
-                        <h5 class="card-title bg-success text-white">Smart-Devices </h5>
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="card border-0 transform-on-hover">
+                        <a class="lightbox" href="img">
+                            <img src="https://haymanotyealemu.github.io/images/image5.jpg" alt=" Responsive Web Design image" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="card-title bg-success text-white text-center p-2">Responsive Web Design</h6>
                     </div>
                 </div>
-            </div>
-        <!--Row 4-->
-        <div class="row">
-            <!--Create Card taking up 6 Columns-->
-            <div class="col-sm-6 col-md-6">
-                <div class="card mb-3 mx-auto "  style="width: 18rem;">
-                    <img class="card-img-top img-fluid  " src="https://haymanotyealemu.github.io/images/Smart%20Home%20Devices.jpg" alt=" Image of Smart Home devices ">
+            </div>  <div class="col-sm-6 col-md-6">
+                <div class="card border-0 transform-on-hover">
+                    <a class="lightbox" href="img">
+                        <img src="https://haymanotyealemu.github.io/images/image6.jpg" alt=" Future technology of smart watch" class="card-img-top">
+                    </a>
                     <div class="card-body">
-                        <h5 class="card-title bg-success text-white">Smart Home Device</h5>
+                        <h6 class="card-title bg-success text-white text-center p-2">Future Technology</h6>
                     </div>
                 </div>
-            </div>
+            </div>  <div class="col-sm-6 col-md-6">
+                <div class="card border-0 transform-on-hover">
+                    <a class="lightbox" href="img">
+                        <img src="https://haymanotyealemu.github.io/images/Smart-Devices.jpg" alt=" Image of smart devices" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title bg-success text-white  text-center p-2">Smart-Devices</h6>
+                    </div>
+                </div>
+            </div>  <div class="col-sm-6 col-md-6">
+                <div class="card border-0 transform-on-hover">
+                    <a class="lightbox" href="img">
+                        <img src="https://haymanotyealemu.github.io/images/Smart%20Home%20Devices.jpg" alt=" Image of Smart Home devices" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title bg-success text-white  text-center p-2">Smart Home Device</h6>
+                    </div>
+                </div>
+            </div> <div class="col-sm-6 col-md-6">
+                <div class="card border-0 transform-on-hover">
+                    <a class="lightbox" href="img">
+                        <img src="https://haymanotyealemu.github.io/images/image4.jpg" alt=" Responsive Web Design image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title bg-success text-white text-center p-2">Responsive Web Design</h6>
+                    </div>
+                </div>
+            </div>    
         </div>
-    </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted text-center text-white font-weight-bold">@copyright</p>
+        </div>
+    </footer>
+        
+       
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 

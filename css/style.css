@@ -1,16 +1,15 @@
 
-
-
 body{
     background-color:#ccc;
     line-height: 24px;
     
 }
-
+/* Hover State For The Links In Nav bar*/
 #Header a:hover{
     color:pink;
     
 }
+/* Giving a style for logo/brand*/
 .navbar-brand{
     font-size: 32px;
     font-family: 'PT Serif', serif; 
@@ -27,4 +26,21 @@ h2{
     color:darkcyan;
     font-family: 'PT Serif', serif;
     
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 30px; /* Margin bottom by footer height */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px; /* Set the fixed height of the footer here */
+    line-height: 18pxpx; /* Vertically center the text there */
+    background-color:gray;
 }
